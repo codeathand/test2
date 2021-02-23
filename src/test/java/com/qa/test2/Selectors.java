@@ -215,7 +215,7 @@ public class Selectors {
 		// check all filtered items for adding to the watchlist by clicking the star
 		for (int i=1; i<=rowCount.size(); i++) {
 			driver.findElement(By.xpath("//table[contains(@class, 'cmc-table')]/tbody/tr["+i+"]/td/span/span")).click();
-			Thread.sleep(500);
+			Thread.sleep(1000);
 		}
 	}
 	
